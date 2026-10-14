@@ -36,3 +36,11 @@ python -m http.server 8000
 ```
 
 Visit `http://localhost:8000`.
+
+## Cloudflare Pages deployment
+
+- Production URL: https://fady-george.pages.dev
+- Connected GitHub repository: Mostafa-Ghanem/fady-george-landing, branch `main`
+- Build command: blank (static content)
+- Output directory: repository root
+- Changes pushed to `main` should automatically trigger new production deployments.
