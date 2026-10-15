@@ -297,3 +297,7 @@ h2{font-size:var(--fs-h2);font-weight:900}
   *,*::before,*::after{animation:none!important;transition:none!important}
   html{scroll-behavior:auto}
 }
+
+/* Logo */
+.brand-logo{height:clamp(38px,32px + 1.2vw,50px);width:auto}
+.footer-logo{width:clamp(200px,160px + 10vw,300px);height:auto}
