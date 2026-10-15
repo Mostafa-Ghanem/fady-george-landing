@@ -4,7 +4,7 @@ A responsive, Arabic RTL personal-brand website for **Fady George**, presenter o
 
 ## Status
 
-**Pre-launch draft.** The website intentionally makes no unverified claims about fees, coaching packages, credentials, client results or bookable services. **The contact form is disabled until an official receiving address and a privacy policy are approved.** Do not tell users the form collects leads yet.
+**Live-ready.** Contact form opens WhatsApp (+20 128 428 8055) with a prefilled message; no data is stored server-side. Privacy policy at `/privacy.html`.
 
 ## Stack
 
@@ -15,7 +15,9 @@ Static HTML + CSS + vanilla JavaScript. No npm, no bundling, no secrets. Deploy 
 - `index.html` — semantic landing page content, media, FAQs and form UI
 - `styles.css` — responsive desktop/mobile design
 - `script.js` — mobile navigation, year display and disabled submit guard
-- `assets/fady-portrait.webp` — portrait cropped from supplied programme artwork
+- `assets/fady-portrait@2x.webp` — upscaled portrait (replace with a pro photo when available)
+- `assets/og-image.jpg` — 1200×630 social share image
+- `privacy.html`, `404.html`, `sitemap.xml`
 - `assets/program-poster.webp` — original artwork supplied by client
 - `assets/favicon.svg` — placeholder lettermark
 - `_headers` — security headers for Cloudflare Pages
