@@ -19,7 +19,7 @@ Static HTML + CSS + vanilla JavaScript. No npm, no bundling, no secrets. Deploy 
 - `assets/og-image.jpg` — 1200×630 social share image
 - `privacy.html`, `404.html`, `sitemap.xml`
 - `assets/program-poster.webp` — original artwork supplied by client
-- `assets/favicon.svg` — placeholder lettermark
+- `assets/logo.webp`, `assets/logo-mark.webp` — official logo; favicon/app icons PNG
 - `_headers` — security headers for Cloudflare Pages
 
 ## Before public production launch
