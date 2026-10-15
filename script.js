@@ -48,10 +48,10 @@
       let firstBad = null;
       if (name.length < 2) { form.name.closest('.field').classList.add('has-error'); firstBad = firstBad || form.name; }
       if (!reason) { form.reason.closest('.field').classList.add('has-error'); firstBad = firstBad || form.reason; }
-      if (firstBad) { status.textContent = 'من فضلك اكتب اسمك واختار نوع الاستفسار.'; firstBad.focus(); return; }
+      if (firstBad) { status.textContent = 'من فضلك اكتب اسمك واختار نوع الاستفسار'; firstBad.focus(); return; }
       const text = `أهلاً أستاذ فادي 👋\nأنا ${name}\nنوع الاستفسار: ${reason}` + (message ? `\n\n${message}` : '') + '\n\n(من الموقع الرسمي)';
       window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(text)}`, '_blank', 'noopener');
-      status.textContent = 'تمام! اتفتح واتساب برسالتك، اضغط إرسال هناك.';
+      status.textContent = 'تمام، اتفتح واتساب برسالتك، اضغط «إرسال» هناك';
     });
   }
 })();
