@@ -15,7 +15,7 @@ Static HTML + CSS + vanilla JavaScript. No npm, no bundling, no secrets. Deploy 
 - `index.html` — semantic landing page content, media, FAQs and form UI
 - `styles.css` — responsive desktop/mobile design
 - `script.js` — mobile navigation, year display and disabled submit guard
-- `assets/fady-portrait@2x.webp` — upscaled portrait (replace with a pro photo when available)
+- `assets/fady-portrait.webp` — upscaled portrait (replace with a pro photo when available)
 - `assets/og-image.jpg` — 1200×630 social share image
 - `privacy.html`, `404.html`, `sitemap.xml`
 - `assets/program-poster.webp` — original artwork supplied by client

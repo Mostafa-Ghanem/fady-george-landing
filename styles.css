@@ -89,8 +89,8 @@ svg{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-l
 .hero-facts strong{font-size:var(--fs-lg);font-weight:800;color:var(--gold-2)}
 .hero-facts span{font-size:var(--fs-xs);color:var(--dim);line-height:1.6}
 .hero-visual{position:relative;justify-self:center;width:min(100%,480px)}
-.portrait{position:relative;aspect-ratio:840/868;border-radius:50% 50% var(--radius) var(--radius)/38% 38% var(--radius) var(--radius);overflow:hidden;background:linear-gradient(180deg,#3a2c21,#1a140f);box-shadow:0 40px 80px -30px rgba(0,0,0,.8),0 0 0 1px var(--line)}
-.portrait img{width:100%;height:100%;object-fit:cover;filter:saturate(1.03) contrast(1.03)}
+.portrait{position:relative;aspect-ratio:1/1.08;border-radius:50% 50% var(--radius) var(--radius)/38% 38% var(--radius) var(--radius);overflow:hidden;background:linear-gradient(180deg,#3a2c21,#1a140f);box-shadow:0 40px 80px -30px rgba(0,0,0,.8),0 0 0 1px var(--line)}
+.portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 20%;filter:saturate(1.03) contrast(1.03)}
 .portrait-fade{position:absolute;inset:auto 0 0;height:35%;background:linear-gradient(0deg,rgba(20,16,13,.75),transparent)}
 .portrait-ring{position:absolute;inset:-14px;border-radius:inherit;border:1px solid rgba(212,173,116,.35);z-index:-1}
 .hero-visual::before{content:"";position:absolute;inset:-6% -10% auto;height:70%;background:radial-gradient(circle,rgba(212,173,116,.35),transparent 65%);filter:blur(30px);z-index:-1}
